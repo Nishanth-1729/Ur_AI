@@ -1,0 +1,4351 @@
+{
+ "source": "file.pdf",
+ "n_pages": 371,
+ "verified": true,
+ "note": "Hand-verified reference for a sample of pages. Split 'heldout_*': pages drawn at random (seeded) and transcribed blind from the rendered page and its text layer before the parser output on them was inspected. Split 'dev': pages used while developing the parser; drafted from parser output and then verified cell by cell against the rendered page. Conventions: cell text as printed (lines of a cell joined; whitespace is normalised by the evaluator); footnote superscripts as Unicode superscripts; empty header positions are 1x1 empty cells; section rows keep their label in the first column; cells holding only an icon are empty; title = nearest heading above the table, else the caption sentence directly above; unit = the unit line printed with the table.",
+ "annotated_pages": [
+  24,
+  62,
+  76,
+  77,
+  85,
+  137,
+  140,
+  159,
+  168,
+  171,
+  185,
+  188,
+  190,
+  193,
+  199,
+  205,
+  214,
+  216,
+  222,
+  244,
+  261,
+  263,
+  290,
+  295,
+  317,
+  340,
+  345,
+  351,
+  364
+ ],
+ "splits": {
+  "heldout_a": [
+   77,
+   85,
+   140,
+   193,
+   290,
+   295,
+   317,
+   340,
+   351,
+   364
+  ],
+  "dev": [
+   24,
+   62,
+   76,
+   168,
+   171,
+   190,
+   199,
+   205,
+   263
+  ],
+  "heldout_b": [
+   137,
+   159,
+   185,
+   188,
+   214,
+   216,
+   222,
+   244,
+   261,
+   345
+  ]
+ },
+ "tables": [
+  {
+   "page": 24,
+   "index": 1,
+   "bbox": [
+    39.0,
+    135.6,
+    552.7,
+    305.2
+   ],
+   "header_rows": 1,
+   "title": "Adjusted Revenue",
+   "unit": "INR crore, unless otherwise mentioned",
+   "rows": [
+    [
+     "INR crore, unless otherwise mentioned",
+     "FY22",
+     "FY23",
+     "FY24"
+    ],
+    [
+     "Food delivery",
+     "4,763",
+     "6,147",
+     "7,792"
+    ],
+    [
+     "Quick commerce⁽¹⁾",
+     "-",
+     "806",
+     "2,301"
+    ],
+    [
+     "Going-out⁽²⁾",
+     "-",
+     "171",
+     "258"
+    ],
+    [
+     "B2B supplies (Hyperpure)",
+     "538",
+     "1,506",
+     "3,172"
+    ],
+    [
+     "Others⁽³⁾",
+     "240",
+     "63",
+     "22"
+    ],
+    [
+     "Total",
+     "5,541",
+     "8,693",
+     "13,545"
+    ],
+    [
+     "YoY % change",
+     "109%",
+     "57%",
+     "56%"
+    ]
+   ]
+  },
+  {
+   "page": 24,
+   "index": 2,
+   "bbox": [
+    39.0,
+    355.7,
+    549.2,
+    503.4
+   ],
+   "header_rows": 1,
+   "title": "Adjusted EBITDA",
+   "unit": "INR crore, unless otherwise mentioned",
+   "rows": [
+    [
+     "INR crore, unless otherwise mentioned",
+     "FY22",
+     "FY23",
+     "FY24"
+    ],
+    [
+     "Food delivery",
+     "-766",
+     "-10",
+     "912"
+    ],
+    [
+     "Quick commerce⁽¹⁾",
+     "-",
+     "-562",
+     "-384"
+    ],
+    [
+     "Going-out⁽²⁾",
+     "-",
+     "-13",
+     "-6"
+    ],
+    [
+     "B2B supplies (Hyperpure)",
+     "-139",
+     "-194",
+     "-126"
+    ],
+    [
+     "Others⁽²,³⁾",
+     "-68",
+     "-3",
+     "-24"
+    ],
+    [
+     "Total",
+     "-973",
+     "-783",
+     "372"
+    ]
+   ]
+  },
+  {
+   "page": 62,
+   "index": 1,
+   "bbox": [
+    41.8,
+    125.8,
+    550.9,
+    426.8
+   ],
+   "header_rows": 1,
+   "title": "Part “B”: Associates",
+   "rows": [
+    [
+     "Name of associates",
+     "ZMT Europe LDA"
+    ],
+    [
+     "1. Latest balance sheet date",
+     "31-Mar-24"
+    ],
+    [
+     "2. Date on which the associate was associated or acquired",
+     "1-Jul-21"
+    ],
+    [
+     "3. Status",
+     "sold w.e.f\nNovember 03,\n2023"
+    ],
+    [
+     "4. Shares of associate held by the Company on the year end",
+     ""
+    ],
+    [
+     "No.",
+     "NA"
+    ],
+    [
+     "Amount of investment in associates",
+     "NA"
+    ],
+    [
+     "Extent of holding%",
+     "NA"
+    ],
+    [
+     "5. Description of how there is significant influence",
+     "Associate"
+    ],
+    [
+     "6. Reason why the associate is not consolidated",
+     "NA"
+    ],
+    [
+     "7. Networth attributable to shareholding as per latest audited balance sheet",
+     "NA"
+    ],
+    [
+     "8. Profit / (loss) for the year",
+     ""
+    ],
+    [
+     "i. Considered in consolidation",
+     "-"
+    ],
+    [
+     "ii. Not considered in consolidation",
+     "-"
+    ]
+   ]
+  },
+  {
+   "page": 76,
+   "index": 1,
+   "bbox": [
+    61.7,
+    246.1,
+    553.7,
+    425.8
+   ],
+   "header_rows": 2,
+   "title": "a. Employees and workers (including differently abled):",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     2,
+     1
+    ],
+    [
+     0,
+     2,
+     2,
+     1
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     5,
+     1,
+     2
+    ],
+    [
+     0,
+     7,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Sr. No.",
+     "Particulars",
+     "Total\n(A)",
+     "Male",
+     "",
+     "Female",
+     "",
+     "Other",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "No. (B)",
+     "% (B/A)",
+     "No. (C)",
+     "% (C/A)",
+     "No. (D)",
+     "% (D/A)"
+    ],
+    [
+     "EMPLOYEES",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.",
+     "Permanent (D)",
+     "3,988",
+     "3,058",
+     "76.68%",
+     "929",
+     "23.30%",
+     "1",
+     "0.03%"
+    ],
+    [
+     "2.",
+     "Other than Permanent (E)",
+     "452",
+     "368",
+     "81.42%",
+     "84",
+     "18.58%",
+     "0",
+     "0.00%"
+    ],
+    [
+     "3.",
+     "Total employees (D+E)",
+     "4,440",
+     "3,426",
+     "77.16%",
+     "1,013",
+     "22.82%",
+     "1",
+     "0.02%"
+    ],
+    [
+     "WORKERS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4.",
+     "Permanent (F)*",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "5.",
+     "Other than Permanent (G)**",
+     "316",
+     "263",
+     "83.23%",
+     "53",
+     "16.77%",
+     "0",
+     "0.00%"
+    ],
+    [
+     "6.",
+     "Total workers (F + G)",
+     "316",
+     "263",
+     "83.23%",
+     "53",
+     "16.77%",
+     "0",
+     "0.00%"
+    ]
+   ]
+  },
+  {
+   "page": 76,
+   "index": 2,
+   "bbox": [
+    61.6,
+    508.0,
+    553.4,
+    715.6
+   ],
+   "header_rows": 2,
+   "title": "b. Differently abled Employees and Workers, FY24:",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     2,
+     1
+    ],
+    [
+     0,
+     2,
+     2,
+     1
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     5,
+     1,
+     2
+    ],
+    [
+     0,
+     7,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Sr. No.",
+     "Particulars",
+     "Total\n(A)",
+     "Male",
+     "",
+     "Female",
+     "",
+     "Other",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "No. (B)",
+     "% (B/A)",
+     "No. (C)",
+     "% (C/A)",
+     "No. (D)",
+     "% (D/A)"
+    ],
+    [
+     "DIFFERENTLY ABLED EMPLOYEES",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.",
+     "Permanent (D)*",
+     "9",
+     "5",
+     "55.55%",
+     "4",
+     "44.45%",
+     "0",
+     "0%"
+    ],
+    [
+     "2.",
+     "Other than Permanent (E)*",
+     "0",
+     "0",
+     "0%",
+     "0",
+     "0%",
+     "0",
+     "0%"
+    ],
+    [
+     "3.",
+     "Total differently abled\nemployees (D+E)",
+     "9",
+     "5",
+     "55.55%",
+     "4",
+     "44.45%",
+     "0",
+     "0%"
+    ],
+    [
+     "DIFFERENTLY ABLED WORKERS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4.",
+     "Permanent (F)",
+     "0",
+     "0",
+     "0%",
+     "0",
+     "0%",
+     "0",
+     "0%"
+    ],
+    [
+     "5.",
+     "Other than permanent (G)*",
+     "4",
+     "3",
+     "75%",
+     "1",
+     "25%",
+     "0",
+     "0%"
+    ],
+    [
+     "6.",
+     "Total differently abled\nworkers (F + G)",
+     "4",
+     "3",
+     "75%",
+     "1",
+     "25%",
+     "0",
+     "0%"
+    ]
+   ]
+  },
+  {
+   "page": 168,
+   "index": 1,
+   "bbox": [
+    39.0,
+    144.2,
+    556.3,
+    500.9
+   ],
+   "header_rows": 1,
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "Note",
+     "As at\nMarch 31, 2024",
+     "As at\nMarch 31, 2023"
+    ],
+    [
+     "Liabilities",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Non-current liabilities",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Financial liabilities",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Borrowings",
+     "16",
+     "-",
+     "6"
+    ],
+    [
+     "Lease liabilities",
+     "35",
+     "588",
+     "351"
+    ],
+    [
+     "Other financial liabilities",
+     "18",
+     "3",
+     "5"
+    ],
+    [
+     "Provisions",
+     "20",
+     "88",
+     "94"
+    ],
+    [
+     "Deferred tax liabilities",
+     "38",
+     "188",
+     "249"
+    ],
+    [
+     "Total non-current liabilities",
+     "",
+     "867",
+     "705"
+    ],
+    [
+     "Current liabilities",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Financial liabilities",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Borrowings",
+     "16",
+     "-",
+     "35"
+    ],
+    [
+     "Lease liabilities",
+     "35",
+     "161",
+     "115"
+    ],
+    [
+     "Trade payables",
+     "17",
+     "",
+     ""
+    ],
+    [
+     "a. total outstanding dues of micro enterprises and small\nenterprises",
+     "",
+     "15",
+     "9"
+    ],
+    [
+     "b. total outstanding dues of creditors other than micro\nenterprises and small enterprises",
+     "",
+     "871",
+     "670"
+    ],
+    [
+     "Other financial liabilities",
+     "18",
+     "644",
+     "310"
+    ],
+    [
+     "Other current liabilities",
+     "19",
+     "363",
+     "276"
+    ],
+    [
+     "Provisions",
+     "20",
+     "29",
+     "26"
+    ],
+    [
+     "Total current liabilities",
+     "",
+     "2,083",
+     "1,441"
+    ],
+    [
+     "Total liabilities",
+     "",
+     "2,950",
+     "2,146"
+    ],
+    [
+     "Total equity and liabilities",
+     "",
+     "23,356",
+     "21,599"
+    ]
+   ]
+  },
+  {
+   "page": 171,
+   "index": 1,
+   "bbox": [
+    138.6,
+    69.0,
+    322.5,
+    772.9
+   ],
+   "header_rows": 2,
+   "title": "A. Equity Share Capital",
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     5,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Equity shares of INR 1 each issued, subscribed and fully\npaid",
+     "Shares Issued\n(A)",
+     "",
+     "Shares held by ESOP Trust\n(Treasury shares) (B)",
+     "",
+     "Total outstanding\n(A-B)",
+     ""
+    ],
+    [
+     "",
+     "Number",
+     "(INR crores)",
+     "Number",
+     "(INR crores)",
+     "Number",
+     "(INR crores)"
+    ],
+    [
+     "As at April 01, 2023",
+     "8,55,35,09,770",
+     "855",
+     "18,95,34,357",
+     "19",
+     "8,36,39,75,413",
+     "836"
+    ],
+    [
+     "Add : bonus shares issued during the year (pursuant to\nexercise of employee stock options)",
+     "3,25,03,548",
+     "3",
+     "-",
+     "-",
+     "3,25,03,548",
+     "3"
+    ],
+    [
+     "Add: shares issued on exercise of employee stock options",
+     "23,37,70,426",
+     "23",
+     "-",
+     "-",
+     "23,37,70,426",
+     "23"
+    ],
+    [
+     "Less: shares issued by ESOP Trust on exercise of\nemployee stock options",
+     "-",
+     "-",
+     "(5,00,05,651)",
+     "(5)",
+     "5,00,05,651",
+     "5"
+    ],
+    [
+     "As at March 31, 2024",
+     "8,81,97,83,744",
+     "882",
+     "13,95,28,706",
+     "14",
+     "8,68,02,55,038",
+     "868"
+    ]
+   ]
+  },
+  {
+   "page": 171,
+   "index": 2,
+   "bbox": [
+    340.4,
+    69.0,
+    552.8,
+    772.9
+   ],
+   "header_rows": 2,
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     5,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Equity Share Capital",
+     "Shares Issued\n(A)",
+     "",
+     "Shares held by ESOP Trust\n(Treasury shares) (B)",
+     "",
+     "Total outstanding\n(A-B)",
+     ""
+    ],
+    [
+     "Equity shares of INR 1 each issued, subscribed and fully\npaid",
+     "Number",
+     "(INR crores)",
+     "Number",
+     "(INR crores)",
+     "Number",
+     "(INR crores)"
+    ],
+    [
+     "As at April 01, 2022",
+     "7,87,19,32,776",
+     "787",
+     "22,89,92,198",
+     "23",
+     "7,64,29,40,578",
+     "764"
+    ],
+    [
+     "Add: shares issued during the year (refer note 31(a))",
+     "62,85,30,012",
+     "63",
+     "-",
+     "-",
+     "62,85,30,012",
+     "63"
+    ],
+    [
+     "Add : bonus shares issued during the year (pursuant to\nexercise of employee stock options)",
+     "1,28,41,983",
+     "1",
+     "-",
+     "-",
+     "1,28,41,983",
+     "1"
+    ],
+    [
+     "Add: shares issued on exercise of employee stock\noptions",
+     "4,02,04,999",
+     "4",
+     "-",
+     "-",
+     "4,02,04,999",
+     "4"
+    ],
+    [
+     "Less: shares issued by ESOP Trust on exercise of\nemployee stock options",
+     "-",
+     "-",
+     "(3,94,57,841)",
+     "(4)",
+     "3,94,57,841",
+     "4"
+    ],
+    [
+     "As at March 31, 2023",
+     "8,55,35,09,770",
+     "855",
+     "18,95,34,357",
+     "19",
+     "8,36,39,75,413",
+     "836"
+    ]
+   ]
+  },
+  {
+   "page": 199,
+   "index": 1,
+   "bbox": [
+    149.3,
+    69.0,
+    485.4,
+    772.8
+   ],
+   "header_rows": 2,
+   "title": "3 Property, Plant and Equipment & Capital work-in-progress (CWIP)",
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     1,
+     1,
+     9
+    ],
+    [
+     0,
+     10,
+     2,
+     1
+    ]
+   ],
+   "rows": [
+    [
+     "",
+     "Property, Plant and Equipment",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "CWIP**"
+    ],
+    [
+     "",
+     "Leasehold\nimprove-\nment",
+     "Air\nConditioner",
+     "Electrical\nEquipement",
+     "Furniture\nand\nfitting",
+     "Computers",
+     "Motor\nVehicles",
+     "Telephone\nInstrument",
+     "Plant &\nMachinery",
+     "Total",
+     ""
+    ],
+    [
+     "Gross carrying value",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "At March 31, 2022",
+     "40",
+     "0",
+     "6",
+     "4",
+     "71",
+     "1",
+     "4",
+     "13",
+     "139",
+     "1"
+    ],
+    [
+     "Additions",
+     "36",
+     "-",
+     "13",
+     "8",
+     "22",
+     "0",
+     "0",
+     "28",
+     "107",
+     "7"
+    ],
+    [
+     "Assets acquired on acquisition",
+     "9",
+     "-",
+     "15",
+     "7",
+     "17",
+     "0",
+     "-",
+     "62",
+     "110",
+     "8"
+    ],
+    [
+     "Assets acquired by way of business\ntransfer",
+     "3",
+     "-",
+     "3",
+     "4",
+     "1",
+     "-",
+     "-",
+     "23",
+     "34",
+     "7"
+    ],
+    [
+     "Disposal",
+     "(2)",
+     "(0)",
+     "(2)",
+     "(2)",
+     "(16)",
+     "(0)",
+     "(1)",
+     "(4)",
+     "(27)",
+     "-"
+    ],
+    [
+     "Transfer to PPE",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(16)"
+    ],
+    [
+     "Foreign currency translation reserve*",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "-",
+     "0",
+     "-"
+    ],
+    [
+     "At March 31, 2023",
+     "86",
+     "0",
+     "35",
+     "21",
+     "95",
+     "1",
+     "3",
+     "122",
+     "363",
+     "7"
+    ],
+    [
+     "Additions",
+     "30",
+     "-",
+     "39",
+     "4",
+     "42",
+     "0",
+     "1",
+     "99",
+     "215",
+     "55"
+    ],
+    [
+     "Disposal",
+     "(1)",
+     "-",
+     "(1)",
+     "(1)",
+     "(17)",
+     "(0)",
+     "(0)",
+     "(29)",
+     "(49)",
+     "-"
+    ],
+    [
+     "Transfer to PPE",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(44)"
+    ],
+    [
+     "Foreign currency translation reserve*",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "-",
+     "0",
+     "-"
+    ],
+    [
+     "At March 31, 2024",
+     "115",
+     "0",
+     "73",
+     "24",
+     "120",
+     "1",
+     "4",
+     "192",
+     "529",
+     "18"
+    ],
+    [
+     "Accumulated depreciation",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "At March 31, 2022",
+     "29",
+     "0",
+     "4",
+     "3",
+     "47",
+     "1",
+     "4",
+     "1",
+     "88",
+     "-"
+    ],
+    [
+     "Depreciation",
+     "14",
+     "0",
+     "9",
+     "7",
+     "27",
+     "0",
+     "0",
+     "31",
+     "88",
+     "-"
+    ],
+    [
+     "Disposals",
+     "(2)",
+     "(0)",
+     "(2)",
+     "(1)",
+     "(14)",
+     "(1)",
+     "(1)",
+     "(1)",
+     "(22)",
+     "-"
+    ],
+    [
+     "Foreign currency translation reserve*",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "-",
+     "0",
+     "-"
+    ],
+    [
+     "At March 31, 2023",
+     "41",
+     "0",
+     "11",
+     "9",
+     "60",
+     "(0)",
+     "3",
+     "31",
+     "154",
+     "-"
+    ],
+    [
+     "Depreciation",
+     "18",
+     "-",
+     "19",
+     "8",
+     "34",
+     "0",
+     "0",
+     "46",
+     "125",
+     "-"
+    ],
+    [
+     "Disposals",
+     "(1)",
+     "-",
+     "(0)",
+     "(1)",
+     "(17)",
+     "(0)",
+     "(0)",
+     "(18)",
+     "(37)",
+     "-"
+    ],
+    [
+     "Foreign currency translation reserve*",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "-",
+     "0",
+     "-"
+    ],
+    [
+     "At March 31, 2024",
+     "58",
+     "0",
+     "30",
+     "16",
+     "77",
+     "(0)",
+     "3",
+     "59",
+     "242",
+     "-"
+    ],
+    [
+     "Net Block",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "At March 31, 2023",
+     "45",
+     "-",
+     "24",
+     "12",
+     "35",
+     "1",
+     "0",
+     "91",
+     "209",
+     "7"
+    ],
+    [
+     "At March 31, 2024",
+     "57",
+     "-",
+     "43",
+     "8",
+     "43",
+     "1",
+     "1",
+     "133",
+     "287",
+     "18"
+    ]
+   ]
+  },
+  {
+   "page": 205,
+   "index": 1,
+   "bbox": [
+    39.0,
+    177.2,
+    556.9,
+    283.3
+   ],
+   "header_rows": 1,
+   "title": "8 Cash and cash equivalents",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "As at\nMarch 31, 2024",
+     "As at\nMarch 31, 2023"
+    ],
+    [
+     "Balances with banks:",
+     "",
+     ""
+    ],
+    [
+     "– In current accounts",
+     "268",
+     "213"
+    ],
+    [
+     "– Deposits with original maturity of less than three months",
+     "39",
+     "5"
+    ],
+    [
+     "Cash on hand",
+     "2",
+     "0"
+    ],
+    [
+     "Total cash and cash equivalents",
+     "309",
+     "218"
+    ]
+   ]
+  },
+  {
+   "page": 205,
+   "index": 2,
+   "bbox": [
+    39.0,
+    331.5,
+    556.6,
+    437.5
+   ],
+   "header_rows": 1,
+   "title": "For the purpose of the statement of cash flows, cash and cash equivalents comprise of the following:",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "As at\nMarch 31, 2024",
+     "As at\nMarch 31, 2023"
+    ],
+    [
+     "Balances with banks:",
+     "",
+     ""
+    ],
+    [
+     "– In current accounts",
+     "268",
+     "213"
+    ],
+    [
+     "– Deposits with original maturity of less than three months",
+     "39",
+     "5"
+    ],
+    [
+     "Cash on hand",
+     "2",
+     "0"
+    ],
+    [
+     "",
+     "309",
+     "218"
+    ]
+   ]
+  },
+  {
+   "page": 205,
+   "index": 3,
+   "bbox": [
+    39.0,
+    484.9,
+    556.6,
+    584.6
+   ],
+   "header_rows": 1,
+   "title": "9 Bank balances other than cash and cash equivalents",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "As at\nMarch 31, 2024",
+     "As at\nMarch 31, 2023"
+    ],
+    [
+     "Bank deposits with original maturity of more than three months but less\nthan 12 months",
+     "419",
+     "794"
+    ],
+    [
+     "Bank balances (including deposits) held as margin money",
+     "3",
+     "5"
+    ],
+    [
+     "Total bank balances other than cash and cash equivalents",
+     "422",
+     "799"
+    ]
+   ]
+  },
+  {
+   "page": 205,
+   "index": 4,
+   "bbox": [
+    39.0,
+    630.0,
+    556.0,
+    722.7
+   ],
+   "header_rows": 1,
+   "title": "10 Loans",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "As at\nMarch 31, 2024",
+     "As at\nMarch 31, 2023"
+    ],
+    [
+     "Current",
+     "",
+     ""
+    ],
+    [
+     "Loan to related party (refer note 37)",
+     "",
+     ""
+    ],
+    [
+     "Considered good- unsecured",
+     "-",
+     "0"
+    ],
+    [
+     "Total current Loans",
+     "-",
+     "0"
+    ]
+   ]
+  },
+  {
+   "page": 263,
+   "index": 1,
+   "bbox": [
+    131.7,
+    68.3,
+    548.7,
+    773.3
+   ],
+   "header_rows": 2,
+   "title": "48 Statutory Group Information (Contd.)",
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     5,
+     1,
+     2
+    ],
+    [
+     0,
+     7,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Name of the entity in the Group",
+     "Net Assets,\ni.e., total assets minus\ntotal liabilities",
+     "",
+     "Share in loss",
+     "",
+     "Share in other\nComprehensive income/\n(loss)",
+     "",
+     "Share in total\nComprehensive loss",
+     ""
+    ],
+    [
+     "",
+     "As % of\nconsolidated\nnet assets",
+     "Amount",
+     "As % of\nconsolidated\nprofit and\nloss",
+     "Amount",
+     "As % of\nconsolidated\nother\ncomprehensive\nincome",
+     "Amount",
+     "As % of total\ncomprehensive\nincome",
+     "Amount"
+    ],
+    [
+     "Gastronauci Sp z.o.o (Poland)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "0%",
+     "0",
+     "0%",
+     "(0)",
+     "0%",
+     "0",
+     "0%",
+     "(0)"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "0%",
+     "0",
+     "0%",
+     "(0)",
+     "0%",
+     "(0)",
+     "0%",
+     "(0)"
+    ],
+    [
+     "Zomato Australia Pty Limited\n(Australia)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "0%",
+     "-",
+     "0%",
+     "-",
+     "0%",
+     "-",
+     "0%",
+     "-"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "0%",
+     "(0)",
+     "0%",
+     "2",
+     "0%",
+     "(0)",
+     "0%",
+     "2"
+    ],
+    [
+     "Zomato, Inc. (USA)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "0%",
+     "0",
+     "-1%",
+     "(3)",
+     "0%",
+     "0",
+     "-1%",
+     "(3)"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "0%",
+     "3",
+     "0%",
+     "(1)",
+     "0%",
+     "0",
+     "0%",
+     "(1)"
+    ],
+    [
+     "Zomato Netherlands B.V.\n(Netherlands)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "0%",
+     "0",
+     "0%",
+     "(0)",
+     "0%",
+     "0",
+     "0%",
+     "(0)"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "0%",
+     "0",
+     "0%",
+     "(0)",
+     "0%",
+     "0",
+     "0%",
+     "(0)"
+    ],
+    [
+     "Zomato Internet Hizmetleri Ticaret\nAnonim Sirketi",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "0%",
+     "3",
+     "0%",
+     "1",
+     "-3%",
+     "(2)",
+     "0%",
+     "(1)"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "0%",
+     "4",
+     "0%",
+     "0",
+     "1%",
+     "(1)",
+     "0%",
+     "(0)"
+    ]
+   ]
+  },
+  {
+   "page": 77,
+   "index": 1,
+   "bbox": [
+    60,
+    90,
+    556,
+    170
+   ],
+   "header_rows": 2,
+   "title": "21. Participation/Inclusion/Representation of women:",
+   "spans": [
+    [
+     0,
+     1,
+     2,
+     1
+    ],
+    [
+     0,
+     2,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "",
+     "Total (A)",
+     "No. and percentage of Females",
+     ""
+    ],
+    [
+     "",
+     "",
+     "No. (B)",
+     "% (B/A)"
+    ],
+    [
+     "Board of Directors",
+     "7",
+     "4",
+     "57.14%"
+    ],
+    [
+     "Key Management Personnel",
+     "3",
+     "1",
+     "33.33%"
+    ]
+   ]
+  },
+  {
+   "page": 77,
+   "index": 2,
+   "bbox": [
+    60,
+    218,
+    556,
+    312
+   ],
+   "header_rows": 2,
+   "title": "22. Turnover rate for permanent employees and workers: (Disclose trends for the past 3 years)",
+   "spans": [
+    [
+     0,
+     1,
+     1,
+     4
+    ],
+    [
+     0,
+     5,
+     1,
+     4
+    ],
+    [
+     0,
+     9,
+     1,
+     4
+    ]
+   ],
+   "rows": [
+    [
+     "",
+     "FY 2023-24",
+     "",
+     "",
+     "",
+     "FY 2022-23",
+     "",
+     "",
+     "",
+     "FY 2021-22",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Male",
+     "Female",
+     "Other",
+     "Total*",
+     "Male",
+     "Female",
+     "Other",
+     "Total",
+     "Male",
+     "Female",
+     "Other",
+     "Total"
+    ],
+    [
+     "Permanent Employees",
+     "34.79%",
+     "44.44%",
+     "100.00%**",
+     "37.00%",
+     "37.70%",
+     "53.35%",
+     "0%",
+     "41.42%",
+     "34.90%",
+     "39.01%",
+     "0%",
+     "35.97%"
+    ],
+    [
+     "Permanent Workers",
+     "0%",
+     "0%",
+     "0%",
+     "0%",
+     "0%",
+     "0%",
+     "0%",
+     "0%",
+     "0%",
+     "0%",
+     "0%",
+     "0%"
+    ]
+   ]
+  },
+  {
+   "page": 77,
+   "index": 3,
+   "bbox": [
+    60,
+    605,
+    556,
+    785
+   ],
+   "header_rows": 2,
+   "title": "25. Complaints/Grievances on any of the principles (Principles 1 to 9) under the National Guidelines on Responsible Business Conduct:",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     2,
+     1
+    ],
+    [
+     0,
+     2,
+     1,
+     3
+    ],
+    [
+     0,
+     5,
+     1,
+     3
+    ]
+   ],
+   "rows": [
+    [
+     "Stakeholder group from whom complaint is received",
+     "Grievance Redressal Mechanism in Place (Yes/No)",
+     "FY 2023-24",
+     "",
+     "",
+     "FY 2022-23",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Number of complaints filed during the year",
+     "Number of complaints pending resolution at close of the year**",
+     "Remarks",
+     "Number of complaints filed during the year",
+     "Number of complaints pending resolution at close of the year",
+     "Remarks"
+    ],
+    [
+     "Communities",
+     "Yes: Link",
+     "0",
+     "0",
+     "Legal cases filed before any court of law have been considered.",
+     "0",
+     "0",
+     "Legal cases filed before any court of law have been considered."
+    ],
+    [
+     "Shareholders",
+     "Yes: Link",
+     "490",
+     "0",
+     "Complaints filed on the NSE and BSE have been considered.",
+     "419",
+     "1",
+     "Complaints filed on the NSE and BSE have been considered."
+    ]
+   ]
+  },
+  {
+   "page": 85,
+   "index": 1,
+   "header_rows": 1,
+   "spans": [
+    [
+     2,
+     1,
+     1,
+     9
+    ],
+    [
+     4,
+     0,
+     1,
+     10
+    ],
+    [
+     5,
+     0,
+     1,
+     10
+    ],
+    [
+     6,
+     1,
+     1,
+     9
+    ],
+    [
+     7,
+     1,
+     1,
+     9
+    ]
+   ],
+   "rows": [
+    [
+     "Disclosure Questions",
+     "P1",
+     "P2",
+     "P3",
+     "P4",
+     "P5",
+     "P6",
+     "P7",
+     "P8",
+     "P9"
+    ],
+    [
+     "Policy and Management Processes",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6. Performance of the entity against the specific commitments, goals and targets along-with reasons in case the same are not met.",
+     "Performance against Zomato’s sustainability targets and commitments has been discussed in pages 29 to 33 of the Annual Report FY24.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Governance Leadership and Oversight",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7. Statement by director responsible for the business responsibility report, highlighting ESG related challenges, targets and achievements (listed entity has flexibility regarding the placement of this disclosure)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "FY24 was an eventful year in terms of ESG at Zomato. In terms of disclosures and ratings, we made dramatic strides in our ESG ratings in FY24 reflecting our commitment to transparency and openness to engaging with diverse groups of stakeholders to address ESG related concerns. Sustainalytics, a global leader in ESG data and ratings reclassified Zomato Limited as LOW RISK rating in February ‘24 from MEDIUM RISK in FY23 and our current score stands at 16.9. We are proud to share that we now have the best ESG rating amongst major global food delivery companies across the world. Earlier in the year, Zomato achieved a S&P Global ESG Score of 41, an increase of 168% from last year’s score of 15, putting us in the 96th percentile of our global peer group of 175 companies. We also continued to maintain our AA ‘ESG Leader’ rating on MSCI’s ESG Rating platform in FY24 and became members of the FTSE4Good Global Index since June 2023. In terms of programs we doubled down - setting new goals and strengthening programs to meet existing goals in each of our 8 chosen thematic areas. These themes, aligned with the UN Sustainable Development Goals, include - Climate Conscious Deliveries; Waste Free World; Zero Hunger; Inclusive Growth; Diversity, Equity and Inclusion; Health, Safety and Wellbeing for All; Customer Centricity and Governance. - Deepinder Goyal, Managing Director & Chief Executive Officer, Zomato Limited For more details on sustainability related challenges, targets and achievements, please refer to pages 29 to 33 of the Management Discussions & Analysis section of the Annual Report",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8. Details of the highest authority responsible for implementation and oversight of the Business Responsibility policy (ies).",
+     "Deepinder Goyal, Managing Director & Chief Executive Officer, Zomato Limited",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9. Does the entity have a specified Committee of the Board/ Director responsible for decision making on sustainability related issues? (Yes / No). If yes, provide details.",
+     "Yes. The CSR committee which is a sub-committee of Zomato’s Board of Directors has oversight of ESG matters including sustainability and climate. The CSR committee is represented by the below members: - Deepinder Goyal, Managing Director & Chief Executive Officer (Chairperson) - Namita Gupta, Non Executive and Independent Director - Aparna Popat Ved, Non Executive and Independent Director - Gunjan Tilak Raj Soni, Non Executive and Independent Director The committee meets every 6 months to review and guide Zomato’s ESG strategy and monitor plan of action and progress made towards its 2030 ESG targets which includes targets related to climate. At the management level, the CEO holds the highest responsibility and oversight on matters related to ESG including climate. The CEO is supported by an ESG team comprising the Chief Financial Officer, Chief Sustainability Officer, Head - Governance Risk Compliance and Head - Human Resources. The ESG team reports achievements and progress to the CSR committee.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "bbox": [
+    38.0,
+    71.9,
+    578.0,
+    768.9
+   ]
+  },
+  {
+   "page": 137,
+   "index": 1,
+   "bbox": [
+    42,
+    84,
+    556,
+    175
+   ],
+   "header_rows": 1,
+   "title": "b. Composition",
+   "rows": [
+    [
+     "Name of member",
+     "Position",
+     "Category"
+    ],
+    [
+     "Namita Gupta",
+     "Chairperson",
+     "Independent Director"
+    ],
+    [
+     "Kaushik Dutta",
+     "Member",
+     "Independent Director"
+    ],
+    [
+     "Sanjeev Bikhchandani",
+     "Member",
+     "Nominee Director"
+    ]
+   ]
+  },
+  {
+   "page": 137,
+   "index": 2,
+   "bbox": [
+    42,
+    213,
+    556,
+    395
+   ],
+   "header_rows": 2,
+   "title": "c. Number of meetings held and attendance of the members",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     5
+    ]
+   ],
+   "rows": [
+    [
+     "Name of member",
+     "Details of meeting(s)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "April 25, 2023",
+     "July 31, 2023",
+     "November 3, 2023",
+     "January 31, 2024",
+     "February 8, 2024"
+    ],
+    [
+     "Namita Gupta",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Kaushik Dutta",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Sanjeev Bikhchandani",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "page": 140,
+   "index": 1,
+   "bbox": [
+    42,
+    118,
+    556,
+    372
+   ],
+   "header_rows": 2,
+   "title": "c. Number of meetings held and attendance of the members",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Name of member",
+     "Details of meeting(s)",
+     ""
+    ],
+    [
+     "",
+     "July 31, 2023",
+     "February 7, 2024"
+    ],
+    [
+     "Deepinder Goyal",
+     "",
+     ""
+    ],
+    [
+     "Namita Gupta",
+     "",
+     ""
+    ],
+    [
+     "Aparna Popat Ved",
+     "",
+     ""
+    ],
+    [
+     "Gunjan Tilak Raj Soni",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "page": 140,
+   "index": 2,
+   "bbox": [
+    42,
+    483,
+    556,
+    582
+   ],
+   "header_rows": 1,
+   "title": "b. Composition",
+   "rows": [
+    [
+     "Name of member",
+     "Position",
+     "Category"
+    ],
+    [
+     "Deepinder Goyal",
+     "Chairman",
+     "Managing Director & Chief Executive Officer"
+    ],
+    [
+     "Akshant Goyal",
+     "Member",
+     "Chief Financial Officer"
+    ],
+    [
+     "Sutapa Banerjee",
+     "Member",
+     "Independent Director"
+    ],
+    [
+     "Sanjeev Bikhchandani",
+     "Member",
+     "Nominee Director"
+    ]
+   ]
+  },
+  {
+   "page": 140,
+   "index": 3,
+   "bbox": [
+    42,
+    688,
+    556,
+    768
+   ],
+   "header_rows": 1,
+   "title": "a. Composition",
+   "rows": [
+    [
+     "Name of member",
+     "Position",
+     "Category"
+    ],
+    [
+     "Deepinder Goyal",
+     "Chairman",
+     "Managing Director & Chief Executive Officer"
+    ],
+    [
+     "Kaushik Dutta",
+     "Member",
+     "Independent Director"
+    ],
+    [
+     "Sanjeev Bikhchandani",
+     "Member",
+     "Nominee Director"
+    ]
+   ]
+  },
+  {
+   "page": 159,
+   "index": 1,
+   "bbox": [
+    42,
+    68,
+    556,
+    512
+   ],
+   "header_rows": 1,
+   "rows": [
+    [
+     "Sr. No.",
+     "Key Audit Matter",
+     "Auditor’s Response"
+    ],
+    [
+     "3.",
+     "Impairment Assessment of Goodwill (Refer note 4 of the consolidated financial statement) The consolidated financial statements of the Group as at March 31, 2024 carries goodwill amounting to INR 3,507 crores in relation to the Acquisition of Blink Commerce Private Limited (BCPL) in previous year. Goodwill is assessed for impairment at each reporting date and is additionally tested annually for impairment. During the current year, based on identified impairment indicators, management has carried out impairment assessment by comparing the carrying value of the goodwill to their recoverable amount to determine whether an impairment was required to be recognized. We considered the assumptions relating to future revenue growth and the valuation assumptions, specifically, the assumptions relating to weighted average cost of capital and terminal growth rate, used in estimation of recoverable value of BCPL as a key audit matter due to the significance of the investment amount and the significant estimates and judgement involved in estimation of these assumptions.",
+     "Principal audit procedures performed: • Evaluated the design, implementation and tested the operating effectiveness of relevant internal controls relating to impairment assessment of Goodwill. • Evaluated the reasonableness of the business assumptions relating to future revenue growth; • Evaluated the objectivity and competency of the specialist engaged by the Company and reviewed the valuation report issued by such specialist; • We have used our valuation specialists to assess overall reasonableness of the assumptions used particularly those relating to the weighted average cost of capital and terminal growth rate; • Performed sensitivity analysis on the key assumptions such as weighted average cost of capital and terminal growth rate."
+    ]
+   ]
+  },
+  {
+   "page": 214,
+   "index": 1,
+   "bbox": [
+    40,
+    176,
+    556,
+    375
+   ],
+   "header_rows": 1,
+   "title": "18 Other financial liabilities",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "As at March 31, 2024",
+     "As at March 31, 2023"
+    ],
+    [
+     "Non Current",
+     "",
+     ""
+    ],
+    [
+     "Security deposit payable",
+     "3",
+     "5"
+    ],
+    [
+     "Total non-current other financial liabilities",
+     "3",
+     "5"
+    ],
+    [
+     "Current",
+     "",
+     ""
+    ],
+    [
+     "Capital creditors",
+     "17",
+     "11"
+    ],
+    [
+     "Security deposit payable",
+     "7",
+     "1"
+    ],
+    [
+     "Amount payable to merchant",
+     "588",
+     "271"
+    ],
+    [
+     "Payable to customers",
+     "13",
+     "12"
+    ],
+    [
+     "Other payable",
+     "19",
+     "15"
+    ],
+    [
+     "Total current other financial liabilities",
+     "644",
+     "310"
+    ]
+   ]
+  },
+  {
+   "page": 214,
+   "index": 2,
+   "bbox": [
+    40,
+    425,
+    556,
+    613
+   ],
+   "header_rows": 1,
+   "title": "19 Other current liabilities",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "As at March 31, 2024",
+     "As at March 31, 2023"
+    ],
+    [
+     "Unearned revenue",
+     "22",
+     "35"
+    ],
+    [
+     "Advances from customers",
+     "17",
+     "17"
+    ],
+    [
+     "Statutory dues :",
+     "",
+     ""
+    ],
+    [
+     "Provident fund payable",
+     "5",
+     "3"
+    ],
+    [
+     "Employee state insurance payable",
+     "0",
+     "-"
+    ],
+    [
+     "Professional tax payable",
+     "0",
+     "-"
+    ],
+    [
+     "Goods and services tax payable",
+     "224",
+     "153"
+    ],
+    [
+     "TDS payable",
+     "83",
+     "66"
+    ],
+    [
+     "Other statutory dues payable",
+     "0",
+     "0"
+    ],
+    [
+     "Others",
+     "12",
+     "2"
+    ],
+    [
+     "Total other current liabilities",
+     "363",
+     "276"
+    ]
+   ]
+  },
+  {
+   "page": 214,
+   "index": 3,
+   "bbox": [
+    40,
+    663,
+    556,
+    756
+   ],
+   "header_rows": 1,
+   "title": "20 Provisions",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "As at March 31, 2024",
+     "As at March 31, 2023"
+    ],
+    [
+     "Non-current",
+     "",
+     ""
+    ],
+    [
+     "Provisions for gratuity (refer note 33)",
+     "60",
+     "52"
+    ],
+    [
+     "Provisions for compensated absences (refer note 33)",
+     "28",
+     "42"
+    ],
+    [
+     "Total non-current provisions",
+     "88",
+     "94"
+    ]
+   ]
+  },
+  {
+   "page": 216,
+   "index": 1,
+   "bbox": [
+    42,
+    152,
+    556,
+    282
+   ],
+   "header_rows": 2,
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     4
+    ]
+   ],
+   "rows": [
+    [
+     "Particulars",
+     "For the year ended March 31, 2023",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Revenue from services",
+     "Revenue from sale of traded goods",
+     "Other operating revenue",
+     "Total"
+    ],
+    [
+     "Services and goods rendered at a point in time",
+     "4,664",
+     "1,472",
+     "44",
+     "6,180"
+    ],
+    [
+     "Services rendered over time",
+     "899",
+     "-",
+     "-",
+     "899"
+    ],
+    [
+     "Total revenue from contract with customers",
+     "5,563",
+     "1,472",
+     "44",
+     "7,079"
+    ]
+   ]
+  },
+  {
+   "page": 216,
+   "index": 2,
+   "bbox": [
+    40,
+    345,
+    556,
+    410
+   ],
+   "header_rows": 1,
+   "title": "Contract balances",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "For the year ended March 31, 2024",
+     "For the year ended March 31, 2023"
+    ],
+    [
+     "Trade receivables*",
+     "794",
+     "457"
+    ],
+    [
+     "Contract liabilities",
+     "39",
+     "52"
+    ]
+   ]
+  },
+  {
+   "page": 216,
+   "index": 3,
+   "bbox": [
+    40,
+    622,
+    556,
+    745
+   ],
+   "header_rows": 1,
+   "title": "a) Changes in unearned revenue during the year ended were as follows:",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "For the year ended March 31, 2024",
+     "For the year ended March 31, 2023"
+    ],
+    [
+     "Opening balance",
+     "35",
+     "51"
+    ],
+    [
+     "Additions during the year",
+     "21",
+     "35"
+    ],
+    [
+     "Less: revenue recognized",
+     "(25)",
+     "(50)"
+    ],
+    [
+     "Less: adjustments to revenue due to a contract modification or foreign exchange difference",
+     "(9)",
+     "(1)"
+    ],
+    [
+     "Closing balance *",
+     "22",
+     "35"
+    ]
+   ]
+  },
+  {
+   "page": 222,
+   "index": 1,
+   "bbox": [
+    40,
+    155,
+    556,
+    670
+   ],
+   "header_rows": 1,
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "",
+     "Balances recognised on acquisition"
+    ],
+    [
+     "Liabilities",
+     ""
+    ],
+    [
+     "Borrowings",
+     "1,193"
+    ],
+    [
+     "Lease liabilities",
+     "172"
+    ],
+    [
+     "Other financial liabilities",
+     "21"
+    ],
+    [
+     "Provisions",
+     "11"
+    ],
+    [
+     "Trade payables",
+     "270"
+    ],
+    [
+     "Other current liabilities",
+     "17"
+    ],
+    [
+     "Total Liabilities (B)",
+     "1,684"
+    ],
+    [
+     "Identifiable net assets at fair value (A-B)",
+     "(532)"
+    ],
+    [
+     "Fair value of intangible assets#",
+     ""
+    ],
+    [
+     "- Brand / Trademark",
+     "797"
+    ],
+    [
+     "- Technology",
+     "225"
+    ],
+    [
+     "- Vendor network",
+     "50"
+    ],
+    [
+     "- Customer relationships",
+     "49"
+    ],
+    [
+     "- Non-compete",
+     "45"
+    ],
+    [
+     "Total",
+     "634"
+    ],
+    [
+     "Purchase consideration",
+     ""
+    ],
+    [
+     "Equity shares issued (62,85,30,012 equity shares of INR 1 each)",
+     "63"
+    ],
+    [
+     "Premium on issue of equity shares (62,85,30,012 equity shares at INR 54.45 each)",
+     "3,422"
+    ],
+    [
+     "Issuance of ESOPs for unvested ESOPs of BCPL employees",
+     "20"
+    ],
+    [
+     "Total purchase consideration",
+     "3,505"
+    ],
+    [
+     "Calculation of goodwill",
+     ""
+    ],
+    [
+     "Purchase consideration",
+     "3,505"
+    ],
+    [
+     "Fair value of existing ownership interest of 8.96% in BCPL as on date of acquisition.",
+     "343"
+    ],
+    [
+     "DTL created on fair value of intangible assets",
+     "293"
+    ],
+    [
+     "Less: identifiable net assets at fair value and fair value of intangible assets",
+     "(634)"
+    ],
+    [
+     "Goodwill arising on acquisition",
+     "3,507"
+    ]
+   ]
+  },
+  {
+   "page": 244,
+   "index": 1,
+   "bbox": [
+    40,
+    257,
+    556,
+    535
+   ],
+   "header_rows": 1,
+   "unit": "(INR crores)",
+   "title": "(c) Deductible temporary differences for which no deferred tax asset is recognised in the Balance Sheet:",
+   "rows": [
+    [
+     "Particulars",
+     "Expiry Date",
+     "For the year ended March 31, 2024",
+     "For the year ended March 31, 2023"
+    ],
+    [
+     "Deferred tax assets / (liabilities) arising on account of:",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Business loss",
+     "31-Mar-26",
+     "-",
+     "58"
+    ],
+    [
+     "Business loss",
+     "31-Mar-27",
+     "20",
+     "467"
+    ],
+    [
+     "Business loss",
+     "31-Mar-28",
+     "1,936",
+     "1,988"
+    ],
+    [
+     "Business loss",
+     "31-Mar-29",
+     "707",
+     "707"
+    ],
+    [
+     "Business loss",
+     "31-Mar-30",
+     "1,168",
+     "1,181"
+    ],
+    [
+     "Business loss",
+     "31-Mar-31",
+     "1,399",
+     "1,357"
+    ],
+    [
+     "Business loss",
+     "31-Mar-32",
+     "733",
+     "-"
+    ],
+    [
+     "Long term capital loss",
+     "31-Mar-29",
+     "4",
+     "4"
+    ],
+    [
+     "Long term capital loss",
+     "31-Mar-31",
+     "0",
+     "0"
+    ],
+    [
+     "Long term capital loss",
+     "31-Mar-32",
+     "250",
+     "-"
+    ],
+    [
+     "Unabsorbed depreciation",
+     "No expiry period",
+     "310",
+     "961"
+    ],
+    [
+     "Other temporary differences",
+     "No expiry period",
+     "(377)",
+     "(321)"
+    ],
+    [
+     "Total",
+     "",
+     "6,150",
+     "6,402"
+    ]
+   ]
+  },
+  {
+   "page": 261,
+   "index": 1,
+   "header_rows": 2,
+   "title": "48 Statutory Group Information (Contd.)",
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     5,
+     1,
+     2
+    ],
+    [
+     0,
+     7,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Name of the entity in the Group",
+     "Net Assets, i.e., total assets minus total liabilities",
+     "",
+     "Share in loss",
+     "",
+     "Share in other Comprehensive income/ (loss)",
+     "",
+     "Share in total Comprehensive loss",
+     ""
+    ],
+    [
+     "",
+     "As % of consolidated net assets",
+     "Amount",
+     "As % of consolidated profit and loss",
+     "Amount",
+     "As % of consolidated other comprehensive income",
+     "Amount",
+     "As % of total comprehensive income",
+     "Amount"
+    ],
+    [
+     "Blink Commerce Private Limited (formerly known as Grofers Private Limited)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "2%",
+     "468",
+     "-184%",
+     "(645)",
+     "0%",
+     "(0)",
+     "-159%",
+     "(645)"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "2%",
+     "364",
+     "78%",
+     "(754)",
+     "-1%",
+     "1",
+     "70%",
+     "(754)"
+    ],
+    [
+     "Foreign",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Pt Zomato Media Indonesia (Indonesia)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "0%",
+     "-",
+     "0%",
+     "(0)",
+     "0%",
+     "(0)",
+     "0%",
+     "(0)"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "0%",
+     "2",
+     "0%",
+     "3",
+     "0%",
+     "0",
+     "0%",
+     "3"
+    ],
+    [
+     "Zomato NZ Media Pvt. Ltd. (New Zealand)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "0%",
+     "-",
+     "0%",
+     "-",
+     "0%",
+     "-",
+     "0%",
+     "-"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "0%",
+     "4",
+     "0%",
+     "2",
+     "0%",
+     "0",
+     "0%",
+     "2"
+    ],
+    [
+     "Zomato Media (Private) Limited (Sri Lanka)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Balance as at March 31, 2024",
+     "0%",
+     "0",
+     "0%",
+     "(0)",
+     "0%",
+     "0",
+     "0%",
+     "(0)"
+    ],
+    [
+     "Balance as at March 31, 2023",
+     "0%",
+     "0",
+     "0%",
+     "(0)",
+     "0%",
+     "(0)",
+     "0%",
+     "(0)"
+    ]
+   ],
+   "bbox": [
+    140.0,
+    69.9,
+    507.0,
+    771.9
+   ]
+  },
+  {
+   "page": 290,
+   "index": 1,
+   "header_rows": 2,
+   "title": "B. Other equity",
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     10
+    ],
+    [
+     0,
+     11,
+     2,
+     1
+    ]
+   ],
+   "rows": [
+    [
+     "Description",
+     "Other equity",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Total"
+    ],
+    [
+     "",
+     "Capital reserve",
+     "Share-based payment reserve",
+     "Securities premium",
+     "Retained earnings",
+     "Treasury shares",
+     "Business transfer adjustment reserve",
+     "Equity instruments through other comprehensive income",
+     "Debt instruments through other comprehensive income",
+     "Foreign currency translation reserve",
+     "Remeasurements of the defined benefit plans",
+     ""
+    ],
+    [
+     "Less: bonus issue of equity shares (pursuant to exercise of employee stock options)",
+     "-",
+     "-",
+     "(1)",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(1)"
+    ],
+    [
+     "Less: ESOP issuance for unvested ESOPs on acquisition",
+     "-",
+     "22",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "22"
+    ],
+    [
+     "As at March 31, 2023",
+     "3",
+     "1,293",
+     "24,710",
+     "(6,109)",
+     "19",
+     "(43)",
+     "74",
+     "0",
+     "30",
+     "(7)",
+     "19,970"
+    ]
+   ],
+   "bbox": [
+    138.0,
+    69.9,
+    306.0,
+    771.9
+   ]
+  },
+  {
+   "page": 317,
+   "index": 1,
+   "bbox": [
+    40,
+    145,
+    556,
+    740
+   ],
+   "header_rows": 1,
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Particulars",
+     "As at March 31, 2024",
+     "",
+     "As at March 31, 2023",
+     ""
+    ],
+    [
+     "11,214 (March 31, 2023 : 11,214) Series B CCPS 0.001% compulsorily convertible preference shares with a face value of INR 10 each fully paid in Adonmo Private Limited",
+     "112",
+     "",
+     "112",
+     ""
+    ],
+    [
+     "Add: fair value through other comprehensive income",
+     "25",
+     "137",
+     "25",
+     "137"
+    ],
+    [
+     "1,259 (March 31, 2023 : 1,259) Series B CCPS 0.001% compulsorily convertible preference shares with a face value of INR 10 each fully paid in Urbanpiper Technology Private Limited",
+     "37",
+     "",
+     "37",
+     ""
+    ],
+    [
+     "Add: fair value through other comprehensive income",
+     "(5)",
+     "32",
+     "(6)",
+     "31"
+    ],
+    [
+     "13,289 (March 31, 2023 : 13,289) Series B1 CCPS 0.01% compulsorily convertible preference shares with a face value of INR 10 each fully paid in Mukunda Foods Private Limited",
+     "38",
+     "",
+     "38",
+     ""
+    ],
+    [
+     "Add: fair value through other comprehensive income",
+     "(9)",
+     "29",
+     "(11)",
+     "27"
+    ],
+    [
+     "Aggregate amount of FVTOCI investment in unquoted equity instruments",
+     "",
+     "2,223",
+     "",
+     "2,163"
+    ],
+    [
+     "(ii) Investment in unquoted debt instruments measured at FVTOCI",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Debentures or bonds",
+     "5,696",
+     "",
+     "50",
+     ""
+    ],
+    [
+     "Add: fair value through other comprehensive income",
+     "(21)",
+     "5,675",
+     "0",
+     "50"
+    ],
+    [
+     "Government securities",
+     "2,453",
+     "",
+     "-",
+     ""
+    ],
+    [
+     "Add: fair value through other comprehensive income",
+     "14",
+     "2,467",
+     "-",
+     "-"
+    ],
+    [
+     "Aggregate amount of unquoted debt instruments measured at FVTOCI",
+     "",
+     "8,142",
+     "",
+     "50"
+    ],
+    [
+     "Aggregate amount of FVTOCI Investments",
+     "",
+     "10,365",
+     "",
+     "2,213"
+    ],
+    [
+     "C) Investments in unquoted debt instruments measured at amortised cost",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Government securities",
+     "",
+     "-",
+     "",
+     "67"
+    ],
+    [
+     "Aggregate amount of unquoted investments (A+B+C)",
+     "",
+     "18,445",
+     "",
+     "8,862"
+    ],
+    [
+     "Aggregate amount of impairment on investments (refer note 28)",
+     "",
+     "922",
+     "",
+     "1,135"
+    ]
+   ]
+  },
+  {
+   "page": 340,
+   "index": 1,
+   "bbox": [
+    40,
+    262,
+    556,
+    412
+   ],
+   "header_rows": 1,
+   "title": "32 Right-of-use asset and leases",
+   "rows": [
+    [
+     "Particulars",
+     "Building"
+    ],
+    [
+     "As at April 01, 2022",
+     "26"
+    ],
+    [
+     "Additions",
+     "150"
+    ],
+    [
+     "Deletions",
+     "(12)"
+    ],
+    [
+     "Depreciation expense",
+     "(30)"
+    ],
+    [
+     "As at March 31, 2023",
+     "134"
+    ],
+    [
+     "Additions",
+     "29"
+    ],
+    [
+     "Deletions",
+     "(1)"
+    ],
+    [
+     "Depreciation expense",
+     "(39)"
+    ],
+    [
+     "As at March 31, 2024",
+     "123"
+    ]
+   ]
+  },
+  {
+   "page": 340,
+   "index": 2,
+   "bbox": [
+    40,
+    438,
+    556,
+    616
+   ],
+   "header_rows": 1,
+   "title": "Set out below are the carrying amounts of lease liabilities recognised and the movements during the year:",
+   "rows": [
+    [
+     "Particulars",
+     "Building"
+    ],
+    [
+     "As at April 01, 2022",
+     "31"
+    ],
+    [
+     "Additions",
+     "140"
+    ],
+    [
+     "Deletions",
+     "(15)"
+    ],
+    [
+     "Accretion of interest",
+     "14"
+    ],
+    [
+     "Payments",
+     "(13)"
+    ],
+    [
+     "As at March 31, 2023",
+     "157"
+    ],
+    [
+     "Additions",
+     "29"
+    ],
+    [
+     "Deletions",
+     "(2)"
+    ],
+    [
+     "Accretion of interest",
+     "16"
+    ],
+    [
+     "Payments",
+     "(51)"
+    ],
+    [
+     "As at March 31, 2024",
+     "149"
+    ]
+   ]
+  },
+  {
+   "page": 340,
+   "index": 3,
+   "bbox": [
+    40,
+    665,
+    556,
+    745
+   ],
+   "header_rows": 1,
+   "unit": "(INR crores)",
+   "title": "The following is the break-up of current and non-current lease liabilities:",
+   "rows": [
+    [
+     "Particulars",
+     "As at March 31, 2024",
+     "As at March 31, 2023"
+    ],
+    [
+     "Current lease liabilities",
+     "42",
+     "31"
+    ],
+    [
+     "Non-current lease liabilities",
+     "107",
+     "126"
+    ],
+    [
+     "Closing balance",
+     "149",
+     "157"
+    ]
+   ]
+  },
+  {
+   "page": 345,
+   "index": 1,
+   "bbox": [
+    40,
+    170,
+    556,
+    255
+   ],
+   "header_rows": 1,
+   "title": "For the year ended March 31, 2023",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Financial assets",
+     "Valuation technique",
+     "Significant unobservable inputs"
+    ],
+    [
+     "Investment in Equity instruments",
+     "Discounted Cash Flow method (“DCF”), Comparable Companies Multiples method (“CCM”), Comparable Companies Transactions Multiples method (“CTM”)",
+     "Weighted Average Cost of Capital (“WACC”), Terminal growth rate, Revenue multiple"
+    ]
+   ]
+  },
+  {
+   "page": 345,
+   "index": 2,
+   "bbox": [
+    40,
+    288,
+    556,
+    402
+   ],
+   "header_rows": 1,
+   "title": "Sensitivity analysis for the year ended March 31, 2023 is shown below:",
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     1,
+     0,
+     6,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1
+    ],
+    [
+     3,
+     1,
+     2,
+     1
+    ],
+    [
+     5,
+     1,
+     2,
+     1
+    ]
+   ],
+   "rows": [
+    [
+     "Financial assets",
+     "Significant unobservable inputs",
+     "% change Significant unobservable inputs",
+     "Fair value change"
+    ],
+    [
+     "Investment in Equity instruments",
+     "Weighted average cost of capital (“WACC”) (Ranging from 15% to 60%)",
+     "(+) 5",
+     "(49)"
+    ],
+    [
+     "",
+     "",
+     "(-) 5",
+     "57"
+    ],
+    [
+     "",
+     "Terminal Growth Rate (5%)",
+     "(+) 5",
+     "5"
+    ],
+    [
+     "",
+     "",
+     "(-) 5",
+     "(5)"
+    ],
+    [
+     "",
+     "Revenue multiple (Ranging from 1.2x to 6.6x)",
+     "(+) 5",
+     "22"
+    ],
+    [
+     "",
+     "",
+     "(-) 5",
+     "(23)"
+    ]
+   ]
+  },
+  {
+   "page": 345,
+   "index": 3,
+   "bbox": [
+    40,
+    445,
+    556,
+    583
+   ],
+   "header_rows": 1,
+   "title": "Reconciliation of level 3 fair value measurements of financial assets is as follows:",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Particulars",
+     "As at March 31, 2024",
+     "As at March 31, 2023"
+    ],
+    [
+     "Balance at the beginning of the year",
+     "2,163",
+     "2,617"
+    ],
+    [
+     "Deletions during the year",
+     "-",
+     "(518)"
+    ],
+    [
+     "Transfer to retained earnings - change in fair value of BCPL investment on acquisition date",
+     "-",
+     "175"
+    ],
+    [
+     "Gain / (loss) recognised in other comprehensive income during the year",
+     "60",
+     "(111)"
+    ],
+    [
+     "Balance at the end of the year",
+     "2,223",
+     "2,163"
+    ]
+   ]
+  },
+  {
+   "page": 351,
+   "index": 1,
+   "header_rows": 2,
+   "title": "34 Related party disclosures (Contd.)",
+   "unit": "(INR crores)",
+   "spans": [
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     5,
+     1,
+     2
+    ],
+    [
+     0,
+     7,
+     1,
+     2
+    ],
+    [
+     0,
+     9,
+     1,
+     2
+    ]
+   ],
+   "rows": [
+    [
+     "Nature of Transactions",
+     "Key Management Personnel",
+     "",
+     "Subsidiary/ Step down subsidiary",
+     "",
+     "Joint Venture",
+     "",
+     "Other related parties",
+     "",
+     "Total",
+     ""
+    ],
+    [
+     "",
+     "March 31, 2024",
+     "March 31, 2023",
+     "March 31, 2024",
+     "March 31, 2023",
+     "March 31, 2024",
+     "March 31, 2023",
+     "March 31, 2024",
+     "March 31, 2023",
+     "March 31, 2024",
+     "March 31, 2023"
+    ],
+    [
+     "Zomato Middle East FZ LLC",
+     "-",
+     "-",
+     "1",
+     "1",
+     "-",
+     "-",
+     "-",
+     "-",
+     "1",
+     "1"
+    ],
+    [
+     "Zomato Payments Private Limited",
+     "-",
+     "-",
+     "-",
+     "1",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "1"
+    ],
+    [
+     "Recoverable from subsidiaries on account of grant/lapse of ESOPs",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Zomato Hyperpure Private Limited",
+     "-",
+     "-",
+     "31",
+     "2",
+     "-",
+     "-",
+     "-",
+     "-",
+     "31",
+     "2"
+    ],
+    [
+     "Zomato Entertainment Private Limited",
+     "-",
+     "-",
+     "3",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "3",
+     "0"
+    ],
+    [
+     "Zomato Payments Private Limited",
+     "-",
+     "-",
+     "5",
+     "2",
+     "-",
+     "-",
+     "-",
+     "-",
+     "5",
+     "2"
+    ],
+    [
+     "Zomato Financial Services Limited",
+     "-",
+     "-",
+     "1",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "1",
+     "0"
+    ],
+    [
+     "Blink Commerce Private Limited",
+     "-",
+     "-",
+     "152",
+     "40",
+     "-",
+     "-",
+     "-",
+     "-",
+     "152",
+     "40"
+    ],
+    [
+     "Zomato Local Services Private Limited",
+     "-",
+     "-",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "0",
+     "-"
+    ],
+    [
+     "Remittance of taxes on exercise of Employee Stock Option Plans (ESOPs)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Carthero Technologies Private Limited",
+     "-",
+     "-",
+     "4",
+     "1",
+     "-",
+     "-",
+     "-",
+     "-",
+     "4",
+     "1"
+    ],
+    [
+     "Tonguestun Food Networks Private Limited",
+     "-",
+     "-",
+     "0",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "0",
+     "0"
+    ],
+    [
+     "Zomato Hyperpure Private Limited",
+     "-",
+     "-",
+     "11",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "11",
+     "0"
+    ],
+    [
+     "Zomato Entertainment Private Limited",
+     "-",
+     "-",
+     "1",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "1",
+     "0"
+    ],
+    [
+     "Zomato Foods Private Limited",
+     "-",
+     "-",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "0",
+     "-"
+    ],
+    [
+     "Zomato Payments Private Limited",
+     "-",
+     "-",
+     "2",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "2",
+     "0"
+    ],
+    [
+     "Zomato Financial Services Limited",
+     "-",
+     "-",
+     "0",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "0",
+     "-"
+    ],
+    [
+     "Blink Commerce Private Limited",
+     "-",
+     "-",
+     "87",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "87",
+     "-"
+    ],
+    [
+     "Provision reversed on disposal/written off investments",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Zomato Ireland Limited",
+     "-",
+     "-",
+     "(161)",
+     "(0)",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(161)",
+     "(0)"
+    ],
+    [
+     "Zomato Media WLL",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(0)",
+     "-",
+     "-",
+     "-",
+     "(0)"
+    ],
+    [
+     "Zomato NZ Media Pvt. Ltd.",
+     "-",
+     "-",
+     "(32)",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(32)",
+     "-"
+    ],
+    [
+     "Zomato Media Portugal, Unipessoal Lda",
+     "-",
+     "-",
+     "(41)",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(41)",
+     "-"
+    ],
+    [
+     "Zomato Chile SpA",
+     "-",
+     "-",
+     "(6)",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(6)",
+     "-"
+    ],
+    [
+     "PT. Zomato Media Indonesia",
+     "-",
+     "-",
+     "(14)",
+     "-",
+     "-",
+     "-",
+     "-",
+     "-",
+     "(14)",
+     "-"
+    ]
+   ],
+   "bbox": [
+    128.0,
+    69.9,
+    552.0,
+    771.9
+   ]
+  },
+  {
+   "page": 364,
+   "index": 1,
+   "header_rows": 1,
+   "title": "45 Relationship with struck off companies:",
+   "unit": "(INR crores)",
+   "rows": [
+    [
+     "Sr. No.",
+     "Name of the struck off Company",
+     "Nature of transactions with struck off Company",
+     "Relationship with the struck off Company",
+     "Balance outstanding as at March 31, 2024*",
+     "Balance outstanding as at March 31, 2023*"
+    ],
+    [
+     "1",
+     "Crudex Lng Petroleum Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "-"
+    ],
+    [
+     "2",
+     "Dietshala Private Limited",
+     "Advance from customer",
+     "Customer",
+     "-",
+     "0"
+    ],
+    [
+     "3",
+     "Flavoursking Hospitality Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "0"
+    ],
+    [
+     "4",
+     "Golmooorrich Food Services Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "-"
+    ],
+    [
+     "5",
+     "Govindkripa Reflectservices Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "-"
+    ],
+    [
+     "6",
+     "Insp Hospitality Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "-"
+    ],
+    [
+     "7",
+     "Kerman'S Hospitality Service Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "0"
+    ],
+    [
+     "8",
+     "My Muscle Meal Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "0"
+    ],
+    [
+     "9",
+     "Navgrah Hospitality Private Limited.",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "0"
+    ],
+    [
+     "10",
+     "Nozama Hospitality (Opc) Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "0"
+    ],
+    [
+     "11",
+     "Sarvaripati Shivay Catering And Hospitality Private Limited",
+     "Advance from customer",
+     "Customer",
+     "-",
+     "0"
+    ],
+    [
+     "12",
+     "Swayam Comicbuk Private Limited",
+     "Advance from customer",
+     "Customer",
+     "0",
+     "-"
+    ],
+    [
+     "13",
+     "Thodaaur Services Private Limited",
+     "Advance from customer",
+     "Customer",
+     "-",
+     "0"
+    ],
+    [
+     "14",
+     "99 Healthlounge Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ],
+    [
+     "15",
+     "Aalbaik India Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ],
+    [
+     "16",
+     "Abhinil Hospitality Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ],
+    [
+     "17",
+     "Adhya Hospitality Services Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ],
+    [
+     "18",
+     "Alhabibi Food Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "-",
+     "0"
+    ],
+    [
+     "19",
+     "Arhaam Fine Dine Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ],
+    [
+     "20",
+     "Asdev Hotels Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "-",
+     "0"
+    ],
+    [
+     "21",
+     "Blue Whale Ventures Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ],
+    [
+     "22",
+     "Bonjour Bonheur Holidays Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ],
+    [
+     "23",
+     "Cocoteros Hospitality Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "-"
+    ],
+    [
+     "24",
+     "Convenant Ark Ventures Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ],
+    [
+     "25",
+     "Crudex Lng Petroleum Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "-"
+    ],
+    [
+     "26",
+     "Dalchini (Opc) Private Limited",
+     "Payable to merchant",
+     "Merchant",
+     "0",
+     "0"
+    ]
+   ],
+   "bbox": [
+    133.0,
+    69.9,
+    538.0,
+    771.9
+   ]
+  }
+ ]
+}

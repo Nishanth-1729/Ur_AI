@@ -1,0 +1,110 @@
+"""Exports derived from the canonical JSON.
+
+* JSON - the source of truth (``DocumentResult.to_dict``).
+* HTML - faithful rendering with rowspan / colspan and <thead>.
+* CSV  - one file per table for convenience; merged cells keep their text in the
+         top-left position and leave the covered positions empty (CSV cannot
+         express spans - use JSON/HTML when structure matters).
+* PDF  - one printable report of all tables (``report.write_report``).
+"""
+from __future__ import annotations
+
+import csv
+import json
+from html import escape
+from pathlib import Path
+
+from .models import DocumentResult, Table
+from .report import write_report
+
+
+def write_json(doc: DocumentResult, path: Path) -> Path:
+    path.write_text(json.dumps(doc.to_dict(), ensure_ascii=False, indent=1), encoding="utf-8")
+    return path
+
+
+def read_json(path: Path) -> DocumentResult:
+    return DocumentResult.from_dict(json.loads(Path(path).read_text(encoding="utf-8")))
+
+
+def table_html(t: Table) -> str:
+    occ = t.occupancy()
+    out = [f'<table data-page="{t.page}" data-index="{t.index}" data-method="{escape(t.method)}">']
+    cap = [escape(x) for x in t.caption]
+    if cap:
+        out.append("<caption>" + "<br>".join(cap) + "</caption>")
+    for r in range(t.n_rows):
+        if r == 0 and t.header_rows:
+            out.append("<thead>")
+        if r == t.header_rows:
+            out.append("<tbody>")
+        tds = []
+        for c in range(t.n_cols):
+            i = occ[r][c]
+            if i < 0:
+                tds.append("<td></td>")
+                continue
+            cell = t.cells[i]
+            if cell.row != r or cell.col != c:
+                continue  # covered by a span
+            tag = "th" if cell.is_header else "td"
+            attrs = (f' rowspan="{cell.rowspan}"' if cell.rowspan > 1 else "") + \
+                    (f' colspan="{cell.colspan}"' if cell.colspan > 1 else "")
+            tds.append(f"<{tag}{attrs}>{escape(cell.text).replace(chr(10), '<br>')}</{tag}>")
+        out.append("<tr>" + "".join(tds) + "</tr>")
+        if r == t.header_rows - 1:
+            out.append("</thead>")
+    if t.n_rows > t.header_rows:
+        out.append("</tbody>")
+    out.append("</table>")
+    return "\n".join(out)
+
+
+_CSS = ("body{font-family:system-ui,'Noto Sans JP',sans-serif;margin:2rem}"
+        "table{border-collapse:collapse;margin:1rem 0 2.5rem}"
+        "td,th{border:1px solid #bbb;padding:2px 8px;vertical-align:top}"
+        "td{text-align:right}td:first-child{text-align:left}th{background:#eef4fb}"
+        "caption{text-align:left;color:#555;padding-bottom:4px}.meta{color:#888;font-size:12px}"
+        ".review{color:#c0181e}.title{font-weight:600;margin:.2rem 0}")
+
+
+def write_html(doc: DocumentResult, path: Path) -> Path:
+    parts = [f"<!doctype html><meta charset='utf-8'><title>{escape(Path(doc.source).name)}</title>",
+             f"<style>{_CSS}</style><h1>{escape(Path(doc.source).name)}</h1>"]
+    for p in doc.pages:
+        parts.append(f"<h2>Page {p.page}</h2><p class='meta'>type={p.page_type} route={p.route} "
+                     f"tables={len(p.tables)}{' | ' + escape('; '.join(p.warnings)) if p.warnings else ''}</p>")
+        for t in p.tables:
+            rel = f" reliability={t.reliability.score:.2f}" if t.reliability else ""
+            why = "; ".join(t.reliability.reasons) if t.needs_review and t.reliability else ""
+            parts.append(f"<p class='meta'>table {t.index} - {escape(t.method)}{rel}"
+                         f"{' - rotated ' + str(t.rotation) + '°' if t.rotation else ''}"
+                         f"{' - <b class=review>NEEDS REVIEW</b> ' + escape(why) if t.needs_review else ''}</p>")
+            if t.title:
+                parts.append(f"<p class='title'>{escape(t.title)}</p>")
+            parts.append(table_html(t))
+    path.write_text("\n".join(parts), encoding="utf-8")
+    return path
+
+
+def write_csv(t: Table, path: Path) -> Path:
+    # utf-8-sig so spreadsheet tools detect the encoding of CJK text
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        csv.writer(f).writerows(t.matrix())
+    return path
+
+
+def export(doc: DocumentResult, out_dir: Path, formats: set[str]) -> list[Path]:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    stem = Path(doc.source).stem
+    written = []
+    if "json" in formats:
+        written.append(write_json(doc, out_dir / f"{stem}.json"))
+    if "html" in formats:
+        written.append(write_html(doc, out_dir / f"{stem}.html"))
+    if "csv" in formats:
+        for t in doc.tables:
+            written.append(write_csv(t, out_dir / f"{stem}_p{t.page:03d}_t{t.index:02d}.csv"))
+    if "pdf" in formats:
+        written.append(write_report(doc, out_dir / f"{stem}_tables.pdf"))
+    return written

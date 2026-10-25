@@ -1,0 +1,7 @@
+# Visual fallback (Phase 2b). Install on top of requirements.txt.
+# A matched (paddleocr, paddlex) pair matters - paddleocr pins its own paddlex range,
+# but `pip install paddleocr` alone can still resolve a newer paddlex than it expects;
+# install paddleocr with the extra below and let pip resolve paddlex from it.
+-r requirements.txt
+paddlepaddle==3.0.0
+paddleocr[doc-parser]==3.7.0
