@@ -111,22 +111,6 @@ python main.py extract balance_sheet_after_correction.pdf -o output -v
 | `<name>.html` | all tables with merged cells, viewable in a browser |
 | `<name>_pNNN_tNN.csv` | one CSV per table (UTF-8 with BOM, opens in Excel) |
 
-### Options
-
-| Option | Meaning |
-|---|---|
-| `--fallback auto\|always\|never` | OCR only where needed (default), on every page, or never |
-| `--pages 3,24-26` | 1-based pages to process |
-| `--formats json,html,csv,pdf` | which outputs to write |
-| `--workers N` | worker processes (default: one per CPU) |
-| `--dpi N` | render resolution for OCR (default 200) |
-| `--no-orientation` | do not read rotated pages upright |
-| `--no-furniture` | keep running headers / footers / page numbers |
-| `--device cpu\|gpu:0` | device for the OCR model |
-| `-v` | print one line per table and every routing decision |
-
-To see PaddleOCR's start-up logs when debugging, use `PDFTABLE_MODEL_LOGS=1 python main.py extract ...`.
-
 ### Checking the totals (no ground truth needed)
 
 ```bash
@@ -185,8 +169,6 @@ pdftable/
 tests/                  39 tests: synthetic PDFs, metrics, report, real-page regressions
 ground_truth/           hand-verified reference tables (development + blind held-out splits)
 balance_sheet_after_correction.pdf   sample input
-report/paper_v2/        research paper (LaTeX source and figures)
-pdftable_Research_Paper.pdf          the paper
 ```
 
 ## Tests
@@ -195,8 +177,3 @@ pdftable_Research_Paper.pdf          the paper
 python -m pytest -q                          # 37 tests (the annual-report regressions skip if its PDF is absent)
 PDFTABLE_TEST_VISUAL=1 python -m pytest -q   # + 2 tests of the OCR fallback
 ```
-
-## Documentation
-
-The problem, architecture, evaluation method and results are described in
-`pdftable_Research_Paper.pdf`.
